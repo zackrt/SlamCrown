@@ -8,6 +8,7 @@ import LandingPage from './components/landingpage';
 import SignUp from './components/signupform';
 import Login from './components/login';
 import UserPage from './components/userpage';
+import UserReportHistory from './components/userreporthistory';
 
 export default function App(props) {
     return (
