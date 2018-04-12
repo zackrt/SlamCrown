@@ -19,16 +19,16 @@ export class UserPage extends Component {
                 </form>
             </section>
                 <section>
-                    <form id="fever">
-                            </div>
+                    <form id="fever" />
+                            
                             <div class="form-section">
                         <label for="fever">Fever</label>
                       </div>
-                    </form>
+                    
                 </section>
                     <section>
                         <form id="nausea">
-                                </div>
+                                
                                 <div class="form-section">
                             <label for="nausea">Nausea</label>
                           </div>
@@ -36,7 +36,7 @@ export class UserPage extends Component {
                     </section>
                         <section>
                             <form id="record-day">
-                            </div>
+                            
                             <div class="form-section">
                                 <label for="other-symptom-summary">Other symptom</label>
                                 <textarea name="other-symptom-summary" rows="15"></textarea>

@@ -1,7 +1,6 @@
-
+import React, { Component } from 'react';
 
 import './signupform.css';
-import React, { Component } from 'react'
 
 export class SignUp extends Component {
     state = {
