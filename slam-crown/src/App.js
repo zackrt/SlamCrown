@@ -4,7 +4,9 @@ import './App.css';
 
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
-import LandingPage from './landingpage.js';
+import LandingPage from './components/landingpage';
+import SignUp from './components/signupform';
+import Login from './components/login';
 
 export default function App(props) {
     return (
@@ -15,7 +17,9 @@ export default function App(props) {
                 </header>
                 <main>
                     <Route exact path="/" component={LandingPage} />
-                    <Route exact path="/board/:boardId" component={Board} />
+                    <Route exact path="/sign-up" component={SignUp} />
+                    <Route exact path="/login" component={Login} />
+
                 </main>
             </div>
         </Router>
