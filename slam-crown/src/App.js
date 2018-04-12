@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import LandingPage from './components/landingpage';
 import SignUp from './components/signupform';
 import Login from './components/login';
+import UserPage from './components/userpage';
 
 export default function App(props) {
     return (
@@ -19,6 +20,7 @@ export default function App(props) {
                     <Route exact path="/" component={LandingPage} />
                     <Route exact path="/sign-up" component={SignUp} />
                     <Route exact path="/login" component={Login} />
+                    <Route exact path="/userpage" component={UserPage} />
 
                 </main>
             </div>

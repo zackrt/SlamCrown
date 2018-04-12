@@ -6,6 +6,7 @@ export class LandingPage extends Component {
     return (
       <div>
         Welcome to Slam Crown!!
+        
         <a href="/sign-up">Sign Up now!</a>
       </div>
     )
