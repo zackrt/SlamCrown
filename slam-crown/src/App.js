@@ -22,7 +22,7 @@ export default function App(props) {
                     <Route exact path="/sign-up" component={SignUp} />
                     <Route exact path="/login" component={Login} />
                     <Route exact path="/userpage" component={UserPage} />
-
+                    <Route exact path="/userreporthistory" component={UserReportHistory} />
                 </main>
             </div>
         </Router>

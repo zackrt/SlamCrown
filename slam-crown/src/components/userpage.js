@@ -7,33 +7,33 @@ export class UserPage extends Component {
       <div>
             <h1>
         Welcome back, User
-    </h1>
-        <h2>
-            Today's Report
-        </h2>
-            <section>
-                <form id="headache">
-                  <div class="form-section">
-                    <label for="headache">Headache</label>
-                  </div>
-                </form>
-            </section>
-                <section>
-                    <form id="fever" />
-                            
-                            <div class="form-section">
-                        <label for="fever">Fever</label>
-                      </div>
-                    
-                </section>
+            </h1>
+                <h2>
+                    Today's Report
+                </h2>
                     <section>
-                        <form id="nausea">
-                                
-                                <div class="form-section">
-                            <label for="nausea">Nausea</label>
-                          </div>
+                        <form id="headache">
+                        <div class="form-section">
+                            <label for="headache">Headache</label>
+                        </div>
                         </form>
                     </section>
+                        <section>
+                            <form id="fever" />
+                                    
+                                    <div class="form-section">
+                                        <label for="fever">Fever</label>
+                                    </div>
+                            
+                        </section>
+                                    <section>
+                                        <form id="nausea">
+                                                
+                                                <div class="form-section">
+                                            <label for="nausea">Nausea</label>
+                                        </div>
+                                        </form>
+                                    </section>
                         <section>
                             <form id="record-day">
                             
