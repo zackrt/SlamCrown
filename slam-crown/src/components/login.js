@@ -12,8 +12,8 @@ export class Login extends Component {
         <form>
     <fieldset>
             <legend>Login:</legend>
-            Email: <input type="text" placeholder="demo@slamcrown.com" id="email-address"required /><br/>
-            Password: <input type="text" placeholder="password" id="user-password" required /><br/>  
+            <span>Email: </span><input type="text" placeholder="demo@slamcrown.com" id="email-address"required /><br/>
+            <span>Password: </span><input type="text" placeholder="password" id="user-password" required /><br/>  
     </fieldset>
            <input type="submit" value="Login!" />
           </form>

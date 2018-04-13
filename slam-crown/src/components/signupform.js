@@ -15,23 +15,21 @@ export class SignUp extends Component {
     return (
       <div>
         <h1>
-        Sign up today <i class="fi-crown"></i>
-    </h1>
+        Create an Account Today!
+        </h1>
         <h2>
             Report on your Concussion & TBI Recovery
         </h2>
             <form onSubmit={this.handleSubmit}>
                 <fieldset>
                     <legend>Sign Up:</legend>
-                    Email: <input type="text" placeholder="demo@slamcrown.com" onInput={e => this.setState({
+                        <span>Email:</span><input type="text" placeholder="demo@slamcrown.com" onInput={e => this.setState({
                         email: e.target.value
-                    })
-                    
-                    } required /><br />
-                    Password: <input type="text" required /><br />
-                    Date of Concussion: <input type="date" />
-                </fieldset>
-                    <input type="submit" value="Submit!" />
+                        })} required /><br />
+                        <span>Password:</span><input type="text" placeholder="password" required /><br />
+                        <span>Date of Concussion:</span><input type="date"  />
+                    </fieldset>
+                    <input className="submitbtn" type="submit" value="Submit!" />
             </form>
       </div>
     )

@@ -3,25 +3,29 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(245, 238, 35);
+    color:black;
+    background-color: rgb(255, 247, 0);
     position: fixed;
 }
 
 li {
     float: right;
+    
 }
 
 li a, .dropbtn {
     display: inline-block;
-    color: white;
+    color: black;
+    font-size: 1.1em;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     float: right;
+    background-color: rgb(255, 247, 0);
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(240, 222, 21);
+    background-color: rgb(2, 255, 2);
 }
 
 li.dropdown {
@@ -46,7 +50,7 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #2af00f}
 
 .dropdown:hover .dropdown-content {
     display: block;

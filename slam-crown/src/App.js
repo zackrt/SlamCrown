@@ -16,7 +16,7 @@ export default function App(props) {
             <div className="app">
             <nav className="NavBar">
                     <div class="dropdown">
-                      <button class="dropbtn" >Menu</button>
+                      <button class="dropbtn">Menu</button>
                       <div class="dropdown-content">
                         <a href="/login">Login</a>
                         <a href="/sign-up">Sign Up</a>
