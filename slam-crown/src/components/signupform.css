@@ -32,3 +32,38 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: palegreen;
 }
+
+@media ( min-width: 648px) {
+    div {
+        
+    }
+    span {
+        display: block;
+    }
+    form {
+        display: inline;
+        text-align: center;
+        color: rgba(245, 245, 245, 0.897);
+    }
+    input {
+        max-width: 50%;
+        height: 40px;
+        font-size: 1.2em;
+    }
+    input[type=submit] {
+        display: block;
+        float: right;
+        margin:10px 10%;
+        padding: 5px 15px; 
+        background:rgb(49, 233, 33); 
+        border:1 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+        width: 40%;
+    }
+    input[type=submit]:hover {
+        background-color: palegreen;
+    }
+
+}

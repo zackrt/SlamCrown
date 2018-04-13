@@ -55,3 +55,12 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+@media ( min-width: 648px) {
+    form {
+        color: red;
+    }
+    input {
+        width: 50%;
+    }
+}
