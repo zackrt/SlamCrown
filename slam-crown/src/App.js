@@ -14,6 +14,17 @@ export default function App(props) {
     return (
         <Router>
             <div className="app">
+            <nav className="NavBar">
+                    <div class="dropdown">
+                      <button class="dropbtn" >Menu</button>
+                      <div class="dropdown-content">
+                        <a href="/login">Login</a>
+                        <a href="/sign-up">Sign Up</a>
+                        <a href="https://github.com/zackrt/SlamCrown">Github</a>
+                        <a href="/login">Sign Out</a>
+                      </div>
+                    </div>
+            </nav>            
                 <header>
                     <h1><Link to="/">Welcome to Slam Crown</Link></h1>
                 </header>
