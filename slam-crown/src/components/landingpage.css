@@ -7,12 +7,6 @@ ul {
     background-color: rgb(255, 247, 0);
     position: fixed;
 }
-
-li {
-    float: right;
-    
-}
-
 li a, .dropbtn {
     display: inline-block;
     color: black;
@@ -55,6 +49,17 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.instructions {
+    display: block;
+    background-color: white;
+    color:rgb(3, 3, 193);
+    text-align: left;
+    margin: 10px;
+    padding:10px;
+}
+.instructions li {
+    padding: 3px;
+}
 
 @media ( min-width: 648px) {
     form {
@@ -62,5 +67,9 @@ li.dropdown {
     }
     input {
         width: 50%;
+    }
+    .instructions {
+        width: 80%;
+        margin: 20px;
     }
 }
